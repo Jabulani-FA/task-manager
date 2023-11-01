@@ -1,0 +1,89 @@
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0px 0px;
+}
+
+.App {
+  margin: 20px auto;
+  width: 400px;
+  min-height: 300px;
+  border: 2px groove grey;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.header{
+  margin: 10px;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h3{
+  margin-top: 5px;
+}
+
+.Addtask{
+  margin: 25px 10px;
+  width: 350px;
+  justify-content: space-evenly;
+}
+
+button{
+  padding: 10px 15px;
+  outline: none;
+  background: rgb(30, 165, 30);
+  font-weight: 800;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.Addtask button{
+  margin: 3px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.Addtask input{
+  width: 100%;
+  height: 30px;
+  margin: 5px 0px;
+}
+
+input.active{
+  margin-left: 10px solid green;
+  outline: none;
+  border: none;
+}
+
+.TaskBox{
+  background-color: rgb(202, 201, 201);
+  width: 80%;
+  margin: 10px;
+  min-height: 45px;
+  padding: 5px 20px;
+}
+
+.TaskBox div{
+  display: flex;
+  justify-content: space-between;
+}
+.clearIcon{
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.TaskBox p{
+  font-size: 12px;
+}
+.TaskBox h4{
+  color: rgb(0, 0, 0);
+  margin-bottom: 3px;
+}
+
+.little{
+  margin-left: 20px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
